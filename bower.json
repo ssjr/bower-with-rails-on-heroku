@@ -1,0 +1,21 @@
+{
+  "name": "testandoBower",
+  "version": "0.0.0",
+  "authors": [
+    "Sérgio Schnorr Júnior <jr.schnorr@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ujs": "~1.0.4",
+    "jquery": "~2.1.4",
+    "modernizr": "~2.8.3"
+  }
+}
