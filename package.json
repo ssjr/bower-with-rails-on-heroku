@@ -1,0 +1,16 @@
+{
+  "name": "just-test-heroku",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "bower": "~1.4.1"
+  },
+  "engine": {
+    "node": ">=0.12.3",
+    "npm": ">=2.9.1"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  }
+}
+
