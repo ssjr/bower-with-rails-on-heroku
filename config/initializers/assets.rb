@@ -13,6 +13,6 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'assets', 'bo
 Rails.application.config.assets.precompile.push(Proc.new do |path|
   File.extname(path).in? [
     '.png',  '.gif', '.jpg', '.jpeg', '.svg', # Images
-    '.eot',  '.otf', '.svc', '.woff', '.ttf', # Fonts
+    '.eot',  '.otf', '.svc', '.woff', '.ttf', '.woff2' # Fonts
   ]
 end)
